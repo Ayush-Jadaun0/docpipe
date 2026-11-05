@@ -1,5 +1,5 @@
 # DocPipe
-
+![DocPipe screenshot](docs/screenshot.png)
 Document understanding pipeline: upload invoices, receipts or ID cards (PDF/PNG/JPG) → OCR + LLM extraction → validation → review UI, Q&A over documents, CSV export.
 
 **Stack:** FastAPI · React (Vite) · SQLite · PyMuPDF · RapidOCR · Groq / Gemini / Anthropic
