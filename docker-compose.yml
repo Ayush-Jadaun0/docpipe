@@ -1,0 +1,12 @@
+services:
+  docpipe:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    volumes:
+      - docpipe-data:/app/data   # keeps uploads + database between restarts
+    restart: unless-stopped
+
+volumes:
+  docpipe-data:

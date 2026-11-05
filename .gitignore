@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# node
+frontend/node_modules/
+frontend/dist/
+
+# runtime data (uploaded documents + database)
+data/
+export.csv

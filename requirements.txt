@@ -1,0 +1,9 @@
+pymupdf
+rapidocr-onnxruntime
+httpx
+google-genai
+anthropic
+python-dateutil
+fastapi
+uvicorn[standard]
+python-multipart
